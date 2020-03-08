@@ -1,0 +1,74 @@
+/* line 1, ../sass/_nav.scss */
+nav {
+  color: red;
+}
+/* line 4, ../sass/_nav.scss */
+nav ul {
+  list-style: none;
+}
+/* line 7, ../sass/_nav.scss */
+nav ul li {
+  float: right;
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  background-color: #b5a6ff;
+}
+
+/* line 13, ../sass/style.scss */
+.paragraph {
+  color: #f0ffa6;
+}
+
+/* line 22, ../sass/style.scss */
+a:hover {
+  color: #2500d9;
+}
+/* line 25, ../sass/style.scss */
+a::after {
+  clear: both;
+}
+
+/* line 30, ../sass/style.scss */
+.card {
+  background-color: white;
+  border: 2px solid #b5a6ff;
+}
+/* line 36, ../sass/style.scss */
+.card .cardBody {
+  color: #b5a6ff;
+  text-align: right;
+}
+/* line 40, ../sass/style.scss */
+.card .cardBody .cardTitle {
+  font-style: 2em;
+}
+/* line 43, ../sass/style.scss */
+.card .cardBody .cardTitle img {
+  max-width: 50px;
+}
+
+/* line 50, ../sass/style.scss */
+.card .cardBody {
+  color: #b5a6ff;
+  text-align: center;
+}
+
+/* line 63, ../sass/style.scss */
+.div1 {
+  border: 10px solid black;
+  float: left;
+  text-align: center;
+  color: red;
+}
+
+/* line 68, ../sass/style.scss */
+.div2 {
+  border: 10px solid black;
+  float: left;
+  text-align: center;
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
