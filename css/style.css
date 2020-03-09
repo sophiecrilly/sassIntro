@@ -1,3 +1,222 @@
+/* line 20, ../sass/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 13, ../sass/_grid.scss */
+.row::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+/* line 29, ../sass/_grid.scss */
+.col1 {
+  width: 8.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col2 {
+  width: 16.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col3 {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col4 {
+  width: 33.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col5 {
+  width: 41.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col6 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col7 {
+  width: 58.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col8 {
+  width: 66.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col9 {
+  width: 75%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col10 {
+  width: 83.3333333333%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col11 {
+  width: 91.6666666667%;
+  float: left;
+  padding: 10px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.col12 {
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 37, ../sass/_grid.scss */
+  .colM1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM3 {
+    width: 25%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM6 {
+    width: 50%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM9 {
+    width: 75%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 37, ../sass/_grid.scss */
+  .colM12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  /* line 45, ../sass/_grid.scss */
+  .colL1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL3 {
+    width: 25%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL6 {
+    width: 50%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL9 {
+    width: 75%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 45, ../sass/_grid.scss */
+  .colL12 {
+    width: 100%;
+  }
+}
 /* line 1, ../sass/_nav.scss */
 nav {
   color: red;
@@ -15,47 +234,59 @@ nav ul li {
 body {
   background-color: #b5a6ff;
 }
+/* line 13, ../sass/_grid.scss */
+body::after {
+  clear: both;
+  display: block;
+  content: '';
+}
 
-/* line 13, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 .paragraph {
   color: #f0ffa6;
 }
+/* line 13, ../sass/_grid.scss */
+.paragraph::after {
+  clear: both;
+  display: block;
+  content: '';
+}
 
-/* line 22, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 a:hover {
   color: #2500d9;
 }
-/* line 25, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 a::after {
   clear: both;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .card {
   background-color: white;
   border: 2px solid #b5a6ff;
 }
-/* line 36, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .card .cardBody {
   color: #b5a6ff;
   text-align: right;
 }
-/* line 40, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .card .cardBody .cardTitle {
   font-style: 2em;
 }
-/* line 43, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .card .cardBody .cardTitle img {
   max-width: 50px;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .card .cardBody {
   color: #b5a6ff;
   text-align: center;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .div1 {
   border: 10px solid black;
   float: left;
@@ -63,7 +294,7 @@ a::after {
   color: red;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .div2 {
   border: 10px solid black;
   float: left;

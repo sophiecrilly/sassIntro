@@ -1,17 +1,19 @@
+@import 'variables';
+@import 'mixins';
+
+@import 'grid';
+
 @import 'nav';
 
 
-// variables
-$purpleColour: #b5a6ff;
-$margin: 10px;
-$mediumScreen: 400px;
-
 body {
     background-color: $purpleColour;
+    @include clear;
 }
 
 .paragraph {
     color: complement($purpleColour);
+    @include clear;
 }
 
 // a:hover {
@@ -52,13 +54,6 @@ a {
     text-align: center;
 }
 
-// mixins
-
-@mixin divStyle {
-    border: 10px solid black;
-    float: left;
-    text-align: center;
-}
 
 .div1 {
     @include divStyle;
